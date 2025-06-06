@@ -4,8 +4,8 @@ meta:
   engineVersion: 250.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/14/2025 18:43:03
-  entityCount: 60384
+  time: 05/22/2025 14:41:42
+  entityCount: 60385
 maps:
 - 1
 grids:
@@ -89427,6 +89427,9 @@ entities:
     - type: Transform
       pos: 18.530312,-50.839474
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
 - proto: BoxID
   entities:
   - uid: 24401
@@ -89978,6 +89981,9 @@ entities:
     - type: Transform
       pos: 18.53386,-51.18632
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
   - uid: 24731
     components:
     - type: Transform
@@ -193207,7 +193213,7 @@ entities:
       pos: -25.5,-29.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -57505.27
+      secondsUntilStateChange: -57552.277
       state: Closing
   - uid: 23821
     components:
@@ -212515,8 +212521,11 @@ entities:
     - type: Transform
       pos: 84.30544,-22.549707
       parent: 2
+    - type: CollisionWake
+      enabled: False
     - type: Openable
       opened: True
+    - type: Conveyed
   - uid: 20825
     components:
     - type: Transform
@@ -229824,6 +229833,9 @@ entities:
     - type: Transform
       pos: -53.623844,39.8467
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
   - uid: 52427
     components:
     - type: MetaData
@@ -231308,11 +231320,17 @@ entities:
     - type: Transform
       pos: -52.423088,39.531235
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
   - uid: 10035
     components:
     - type: Transform
       pos: -52.188713,39.781235
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
 - proto: FoodNoodles
   entities:
   - uid: 14675
@@ -231327,11 +231345,17 @@ entities:
     - type: Transform
       pos: -53.262577,39.631084
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
   - uid: 23708
     components:
     - type: Transform
       pos: -53.512577,39.55296
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
   - uid: 52053
     components:
     - type: MetaData
@@ -231556,6 +231580,9 @@ entities:
     - type: Transform
       pos: 84.58669,-23.018457
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
   - uid: 23047
     components:
     - type: Transform
@@ -231657,6 +231684,9 @@ entities:
     - type: Transform
       pos: 84.46169,-23.252832
       parent: 2
+    - type: CollisionWake
+      enabled: False
+    - type: Conveyed
   - uid: 23157
     components:
     - type: Transform
@@ -328581,7 +328611,7 @@ entities:
     - type: Transform
       pos: 0.5,-0.5
       parent: 66965
-- proto: RandomVendingSnacks
+- proto: RandomVendingSnacksHighpop
   entities:
   - uid: 2548
     components:
@@ -334950,11 +334980,13 @@ entities:
     - type: Transform
       pos: 84.543495,-21.617512
       parent: 2
+    - type: Conveyed
   - uid: 21509
     components:
     - type: Transform
       pos: 84.699745,-24.586262
       parent: 2
+    - type: Conveyed
   - uid: 21872
     components:
     - type: Transform
@@ -345302,6 +345334,13 @@ entities:
     components:
     - type: Transform
       pos: -47.5,-21.5
+      parent: 2
+- proto: SpawnPointWardenHelper
+  entities:
+  - uid: 4043
+    components:
+    - type: Transform
+      pos: -41.5,-23.5
       parent: 2
 - proto: SpawnPointZookeeper
   entities:
@@ -359787,6 +359826,7 @@ entities:
     - type: Transform
       pos: -53.5,-37.5
       parent: 2
+    - type: Conveyed
 - proto: TargetDarts
   entities:
   - uid: 11938
@@ -359908,6 +359948,7 @@ entities:
     - type: Transform
       pos: -54.5,-39.5
       parent: 2
+    - type: Conveyed
 - proto: TargetSyndicate
   entities:
   - uid: 8959
@@ -359920,6 +359961,7 @@ entities:
     - type: Transform
       pos: -53.5,-41.5
       parent: 2
+    - type: Conveyed
   - uid: 19771
     components:
     - type: Transform
